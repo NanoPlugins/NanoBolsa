@@ -10,7 +10,7 @@
 ## Placeholders
 
 **PlaceholderAPI**
-• %bolsa% - Retorna o valor da bolsa
+• %bolsa% - Retorna o valor da bolsa <br>
 `Caso use featherboard use {placeholderapi_bolsa}`
 
 ## Configuração
