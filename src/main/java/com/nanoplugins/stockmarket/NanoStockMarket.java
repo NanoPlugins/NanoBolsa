@@ -16,7 +16,7 @@ public class NanoStockMarket extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         timer = new Timer();
-        NanoStockMarketAPI api = new NanoStockMarketAPI();
+        NanoStockMarketAPI api = NanoStockMarketAPI.get();
         loadTask(api, getConfig());
         new PlaceholderAPIHook(this, api).register();
         new StockMarketCommand(this, api);

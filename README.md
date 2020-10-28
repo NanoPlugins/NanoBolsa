@@ -49,7 +49,7 @@ messages:
 
 **Pegar o valor atual da bolsa**
 ```java
-NanoStockMarketAPI api = new NanoStockMarketAPI()
+NanoStockMarketAPI api = NanoStockMarketAPI().get();
 System.out.println("Valor atual da bolsa: " + api.getStockMarket());
 ```
 
