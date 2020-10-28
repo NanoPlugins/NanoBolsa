@@ -53,7 +53,7 @@ NanoStockMarketAPI api = new NanoStockMarketAPI()
 System.out.println("Valor atual da bolsa: " + api.getStockMarket());
 ```
 
-**Evento quando muda o valor da bolsa**
+**Evento quando muda o valor da bolsa** <br>
 `NanoStockMarketUpdate`
 ```java
 @EventHandler  
