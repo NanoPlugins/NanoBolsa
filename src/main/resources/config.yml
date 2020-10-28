@@ -1,0 +1,27 @@
+#Placeholderapi: %bolsa% (caso use featherboard: {placeholder_api_bolsa})
+#Comandos
+#
+# • /bolsa - Não precisa de permissão
+# • /bolsa set <amount> - bolsa.admin
+#
+# nanoplugins.com | nanoplugins.com.br | nanoplugins.fun
+
+#Definições do plugin
+settings:
+  delay: 300 #segundos (300 = 5 minutos)
+  value:
+    min: 1 #minimo da bolsa
+    max: 100 #maximo da bolsa
+  difference:
+    use: false #caso esteja true vai funcionar por diferença
+    value: 20 #Valor que adiciona ou subtrai da bolsa atual
+
+#Mensagens
+messages:
+  must-be-number: "&cPrecisa digitar um número!" #Se o valor definido não for um número
+  need-args: "&c/bolsa set <amount>" #Caso o comando seja mal executado
+  no-perm: "&cNão tem permissão!" #Sem permissão para usar o comando
+  check: "&eValor da bolsa: &f%stockMarket%" #Informação da bols aatual
+  update-message:
+    - "&e&lBolsa de Valores" #Mensagem de update da bolsa
+    - "&6A bolsa atualizou de &c&n%oldStockMarket%&6 para &a&n%stockMarket%&6!"

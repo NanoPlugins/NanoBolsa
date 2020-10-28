@@ -1,0 +1,6 @@
+name: NanoBolsa
+version: 1.0.0
+main: com.nanoplugins.stockmarket.NanoStockMarket
+authors: [NanoPlugins, Morais]
+commands:
+  bolsa:
