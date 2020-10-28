@@ -4,8 +4,8 @@
 
 ## Comandos
 
-• `/bonus` - Sem permissão <br>
-• `/bonus set <amount>` - bolsa.admin
+• `/bolsa` - Sem permissão <br>
+• `/bolsa set <amount>` - bolsa.admin
 
 ## Placeholders
 
