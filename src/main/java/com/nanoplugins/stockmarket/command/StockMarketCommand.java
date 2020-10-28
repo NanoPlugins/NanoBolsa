@@ -55,8 +55,8 @@ public class StockMarketCommand implements CommandExecutor {
             api.setStockMarket(newStockMarket);
 
             for (String line : updateMessage) Bukkit.broadcastMessage(line
-                        .replace("%oldStockMarket%", Integer.toString(stockMarket))
-                        .replace("%stockMarket%", Integer.toString(newStockMarket)));
+                        .replace("%old%", Integer.toString(stockMarket))
+                        .replace("%new%", Integer.toString(newStockMarket)));
 
         }
 

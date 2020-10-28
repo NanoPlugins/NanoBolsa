@@ -48,7 +48,7 @@ public class StockMarketTask extends TimerTask {
 
         for (String line : message)
             Bukkit.broadcastMessage(line
-                    .replace("%oldStockMarket%", Integer.toString(stockMarket))
-                    .replace("%stockMarket%", Integer.toString(newStockMarket)));
+                    .replace("%old%", Integer.toString(stockMarket))
+                    .replace("%new%", Integer.toString(newStockMarket)));
     }
 }

@@ -21,7 +21,7 @@ messages:
   must-be-number: "&cPrecisa digitar um número!" #Se o valor definido não for um número
   need-args: "&c/bolsa set <amount>" #Caso o comando seja mal executado
   no-perm: "&cNão tem permissão!" #Sem permissão para usar o comando
-  check: "&eValor da bolsa: &f%stockMarket%" #Informação da bols aatual
+  check: "&eValor da bolsa: &f%stockMarket%" #Informação da bols aatual (Placeholders: %stockMarket%)
   update-message:
-    - "&e&lBolsa de Valores" #Mensagem de update da bolsa
-    - "&6A bolsa atualizou de &c&n%oldStockMarket%&6 para &a&n%stockMarket%&6!"
+    - "&e&lBolsa de Valores" #Mensagem de update da bolsa (Placeholders: %old% & %new%)
+    - "&6A bolsa atualizou de &c&n%old%&6 para &a&n%new%&6!"
